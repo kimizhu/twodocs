@@ -1,0 +1,35 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "twodocs1/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "twodocs1/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [],
+    "dest": "twodocs1"
+  }
+}
